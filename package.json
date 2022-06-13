@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "@wordpress/scripts": "^23.2.0",
+    "standard-version": "^9.5.0"
+  },
+  "scripts": {
+    "release": "standard-version",
+    "zip": "wp-scripts plugin-zip",
+    "packages-update": "wp-scripts packages-update"
+  }
+}
